@@ -1,0 +1,124 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.third-width {
+	float: left;
+	max-width: 33%;
+}
+
+.quarter-width {
+	float: left;
+	max-width: 25%
+}
+
+/***** NAVBAR *****/
+#home-button {
+	background: url(../../img/yellow-splotch-isolated.png) no-repeat 0px 2px;
+	opacity: .7;
+	padding: 40px 20px 40px 20px;
+}
+
+#home-button:hover {
+	opacity: 1;
+}
+
+nav {
+	float: right;
+	padding: 50px 0 50px 0;
+}
+
+nav ul {
+	background: #ffffff;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	padding-left: 30px;
+}
+
+nav ul li a {
+	color: #000000;
+	font-family: 'Special Elite', serif;
+	font-size: 35px;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+nav ul li a:hover {
+	color: #4b5581;
+}
+
+/***** HEADINGS *****/
+h3 {
+	font-family: 'Special Elite', serif;
+	font-size: 30pt;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	width: 400px;
+}
+
+
+/***** WORK SAMPLE TITLES *****/
+h2 {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 60px;
+	margin: 0 auto;
+	padding: 175px 0 25px 0;
+	text-align: center;
+	width: 700px;
+}
+
+.comp {
+	float: left;
+	width: 250px;
+}
+
+.comp h3 {
+	font-family: 'Special Elite', serif;
+	font-size: 30pt;
+	padding: 0 0 20px 0;
+	text-align: center;
+	width: 250px;
+}
+
+.text {
+	padding: 30px;
+}
+
+.code h3 {
+	font-family: 'Special Elite', serif;
+	font-size: 30pt;
+	padding: 0 0 20px 150px;
+	text-align: center;
+	width: 300px;
+}
+
+.blank-box {
+	height: 157px;
+	opacity: 0;
+}
+
+#live-box {
+	height: 116px;
+	position: relative;
+}
+
+#live-box a{
+	color: #000000;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 40px;
+	position: absolute;
+	right: 15%;
+	top: 15%;
+	text-align: center;
+	text-decoration: none;
+}
+#live-box a:hover {
+	color: #4b5581;
+}

@@ -1,0 +1,153 @@
+/***** ROGUE PICKINGS STYLESHEET *****/
+
+/***** BASE STYLES *****/
+@font-face {
+	font-family: 'Wisdom Script';
+	src: url('wisdom-script-aj.otf') format('opentype');
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	max-width: 1200px;
+	padding-left: 20px;
+}
+
+/***** GRID *****/
+.half-width {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.third-width {
+	height: 210px;
+	width: 28%;
+	margin: 0 auto;
+	float: left;
+}
+
+/***** HEADER *****/
+header {
+	color: #77a466;
+	height: 140px;
+	text-transform: uppercase;
+}
+
+header h1 {
+	font-size: 30px;
+	padding: 50px 0;
+}
+
+header span {
+	color: #000000;
+}
+
+nav {
+	float: right;
+	padding: 55px 20px;
+}
+
+nav ul li {
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	padding-left: 20px;
+	text-transform: uppercase;
+}
+
+/***** IMAGE *****/
+#hero {
+	height: 310px;
+	position: relative;
+}
+
+#image {
+	border: 3px solid #77a466;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+/***** ABOUT *****/
+#about {
+	height: 175px;
+}
+
+#about h2 {
+	color:  #77a466;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+#about p {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+/***** INFO *****/
+#info .third-width {
+	float: left;
+	height: 160px;
+	padding: 20px 30px 30px 30px;
+}
+
+#info h1 {
+	font-size: 12px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+#info p {
+	font-size: 16px;
+	line-height: 21px;
+}
+
+#specials {
+	border-color: #ebebeb;
+	border-style: solid;
+	border-left-style: none;
+	border-right-style: none;
+	border-width: 1px;
+}
+
+#specials p {
+	color: #77a466;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+#review {
+	border-color: #ebebeb;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#contact {
+	border-color: #ebebeb;
+	border-style: solid;
+	border-left-style: none;
+	border-right-style: none;
+	border-width: 1px;
+}
+
+#contact p {
+	line-height: 24px;
+}
+
+/***** FOOTER *****/
+footer h1{
+	clear: both;
+	font-size: 16px;
+	line-height: 23px;
+	padding-top: 35px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+footer span{
+	color: #77a466;
+	font-family: 'Wisdom Script';
+	text-transform: lowercase;
+}
