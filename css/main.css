@@ -87,10 +87,12 @@ h3 {
 
 /* down arrow */
 h4 {
-	font-family: 'Homemade Apple', cursive;
-	font-size: 160px;
+	font-family: 'Special Elite', serif;
+	font-size: 100px;
 	margin: 0 auto;
+	padding-left: 100px;
 	text-align: center;
+	width: 20px;
 	-webkit-transform: rotate(90deg);
 }
 
