@@ -61,8 +61,8 @@ nav ul li a:hover {
 
 /***** HOME *****/
 #hero {
-	background: url(../img/blue-splotch.png) no-repeat 260px;
-	height: 700px;
+	background: url(../img/blue-splotch.png) no-repeat center;
+	height: 720px;
 }
 
 /* name */
@@ -70,7 +70,7 @@ h1 {
 	font-family: 'Homemade Apple', cursive;
 	font-size: 60px;
 	margin: 0 auto;
-	padding: 200px 200px 0 200px;
+	padding-top: 200px;
 	text-align: center;
 	width: 400px;
 }
@@ -80,7 +80,7 @@ h3 {
 	font-family: 'Special Elite', serif;
 	font-size: 30pt;
 	margin: 0 auto;
-	padding: 20px;
+	padding-top: 20px;
 	text-align: center;
 	width: 400px;
 }
@@ -90,7 +90,7 @@ h4 {
 	font-family: 'Special Elite', serif;
 	font-size: 100px;
 	margin: 0 auto;
-	padding-left: 100px;
+	padding-left: 175px;
 	text-align: center;
 	width: 20px;
 	-webkit-transform: rotate(90deg);
